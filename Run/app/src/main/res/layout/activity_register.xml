@@ -14,69 +14,85 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="25dp">
+        android:padding="25dp"
+        android:visibility="visible"
+        tools:visibility="visible">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp"
-            android:text="REGISTER"
-            android:textColor="@color/black"
-            android:textColorLink="#9C27B0"
+            android:text="REGISTER" style="@style/boldTextView"
+            android:textColor="@color/DarkBlue"
             android:textSize="36sp" />
 
         <EditText
             android:id="@+id/et_user_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="User Name"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black" />
+            android:hint="User Name" style="@style/boldTextView"
+            android:textAlignment="textStart"
+            android:textColor="@color/DarkBlue"
+            android:textColorHint="@color/DarkBlue" />
 
         <EditText
             android:id="@+id/et_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="Password" style="@style/boldTextView"
             android:inputType="textPassword"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black" />
+            android:textAlignment="textStart"
+            android:textColor="@color/DarkBlue"
+            android:textColorHint="@color/DarkBlue"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"/>
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm password" style="@style/boldTextView"
+            android:inputType="textPassword"
+            android:textAlignment="textStart"
+            android:textColor="@color/DarkBlue"
+            android:textColorHint="@color/DarkBlue"
+            app:errorEnabled="true" />
 
         <EditText
             android:id="@+id/et_Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="E-mail"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black" />
+            android:hint="E-mail" style="@style/boldTextView"
+            android:textAlignment="textStart"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/DarkBlue"
+            android:textColorHint="@color/DarkBlue"
+            app:errorEnabled="true"
+            />
 
         <EditText
             android:id="@+id/et_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Age"
+            android:hint="Age" style="@style/boldTextView"
             android:inputType="numberDecimal"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black" />
+            android:textAlignment="textStart"
+            android:textColor="@color/DarkBlue"
+            android:textColorHint="@color/DarkBlue" />
 
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/et_country"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fadingEdge="horizontal"
+            android:gravity="fill_horizontal"
             android:hint="Country"
-            android:inputType="numberDecimal"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black" />
+            android:popupElevation="50dp"
+            android:textColor="@color/DarkBlue" style="@style/boldTextView"
+            android:textColorHint="@color/DarkBlue"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -87,18 +103,26 @@
 
             <Button
                 android:id="@+id/reset"
-                android:layout_width="wrap_content"
+                android:layout_width="114dp"
                 android:layout_height="wrap_content"
                 android:text="Reset"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                />
 
             <Button
-                android:id="@+id/btn_submit"
-                android:layout_width="wrap_content"
+                android:id="@+id/submit"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:text="Submit"
                 android:textAllCaps="false" />
         </LinearLayout>
+        <Button
+            android:id="@+id/back"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textAllCaps="false"
+            />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
