@@ -8,12 +8,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 
-<<<<<<< HEAD:Run/app/src/main/java/com/first/run/all_runsframe.kt
 class all_runsframe : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_all_runs_frame)
-=======
+    }
+}
 class Login : AppCompatActivity() {
 
     private lateinit var mAuth : FirebaseAuth
@@ -68,6 +68,5 @@ class Login : AppCompatActivity() {
                 }
             }
         }
->>>>>>> origin/Liudas:Run/app/src/main/java/com/first/run/Login.kt
     }
 }

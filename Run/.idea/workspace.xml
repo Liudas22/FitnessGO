@@ -24,7 +24,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a078725c-5a2e-41f0-87a3-ece2e314ce83" name="Default Changelist" comment="update" />
+    <list default="true" id="a078725c-5a2e-41f0-87a3-ece2e314ce83" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Run.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Run.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/first/run/Start_Run.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/first/run/Start_Run.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/first/run/all_runsframe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/first/run/all_runsframe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/tracking_frame.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tracking_frame.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,9 +73,45 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Android JUnit.All in Run">
-    <configuration name="All in Run" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Run" />
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="All in Run.app (2)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Run.app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Run.app (3)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Run.app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Run.app (4)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Run.app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Run.app (5)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Run.app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Run.app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Run.app" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -75,7 +126,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Run.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -134,7 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.All in Run" />
+        <item itemvalue="Android JUnit.All in Run.app" />
+        <item itemvalue="Android JUnit.All in Run.app (5)" />
+        <item itemvalue="Android JUnit.All in Run.app (4)" />
+        <item itemvalue="Android JUnit.All in Run.app (3)" />
+        <item itemvalue="Android JUnit.All in Run.app (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +231,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="165" key="#Plugins" timestamp="1618477391865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="165" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1618477391865" />
     <state x="779" y="266" key="AndroidProcessChooserDialog" timestamp="1617275744850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,5 +243,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617902882216" />
+    <state width="1859" height="279" key="GridCell.Tab.0.bottom" timestamp="1618478103239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1859" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618478103239" />
+    <state width="1859" height="279" key="GridCell.Tab.0.center" timestamp="1618478103239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1859" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618478103239" />
+    <state width="1859" height="279" key="GridCell.Tab.0.left" timestamp="1618478103239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1859" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618478103239" />
+    <state width="1859" height="279" key="GridCell.Tab.0.right" timestamp="1618478103239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1859" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618478103239" />
   </component>
 </project>
