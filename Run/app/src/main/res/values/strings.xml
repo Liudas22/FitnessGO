@@ -22,6 +22,7 @@
     <string name="action_settings">Settings</string>
     <string name="text_hello">Hello,</string>
     <string name="text_title">Android Tutorials Hub</string>
+<<<<<<< HEAD
     <string name="delete">Delete</string>
     <string name="save">Save</string>
     <string name="comments_about_the_run">Comments about the run</string>
@@ -39,4 +40,11 @@
     <string name="paceuiuzrasyti">PaceuiUzrasyti</string>
     <string name="kilometramsirasyti">kilometramsIrasyti</string>
     <string name="rate_your_run_from_1_to_10">Rate your run from 1 to 10</string>
+=======
+
+    <string name="stop">Stop Timer</string>
+    <string name="start">Start Timer</string>
+    <string name="working">Started</string>
+    <string name="stopped">Stopped</string>
+>>>>>>> origin/Arnelio
 </resources>
