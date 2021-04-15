@@ -24,9 +24,10 @@
         android:layout_marginTop="665dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Komentaras"
+        android:text="@string/komentaras"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <SeekBar
         android:id="@+id/seekBar"
@@ -47,7 +48,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="670dp"
-        android:text="Begimas"
+        android:text="@string/begimas"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="321dp"
-        android:text="Kaip vertinate si begima ?"
+        android:text="@string/kaip_vertinate_si_begima"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -70,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
         android:layout_marginTop="636dp"
-        android:text="Ivertinkite si begima"
+        android:text="@string/ivertinkite_si_begima"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
