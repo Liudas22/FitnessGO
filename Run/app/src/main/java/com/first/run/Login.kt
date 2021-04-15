@@ -52,7 +52,7 @@ class Login : AppCompatActivity() {
         else{
             mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
                 if(task.isSuccessful){
-                    val intent = Intent(this, afterLogin::class.java)
+                    val intent = Intent(this, Tutorial_Frame::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
                     startActivity(intent)
                     finish()

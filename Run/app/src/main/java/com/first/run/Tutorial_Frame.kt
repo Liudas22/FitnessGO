@@ -6,10 +6,10 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 
-class afterLogin : AppCompatActivity() {
+class Tutorial_Frame : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_afterlogin)
+        setContentView(R.layout.activity_tutorialframe)
         val signOutButton = findViewById<Button>(R.id.signout)
         val backButton = findViewById<Button>(R.id.back)
         val continueButton = findViewById<Button>(R.id.Continue)
