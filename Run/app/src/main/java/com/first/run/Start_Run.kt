@@ -16,8 +16,4 @@ class Start_Run : AppCompatActivity() {
             startActivity(intent)
         }
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/Liudas
 }
