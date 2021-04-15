@@ -1,11 +1,9 @@
 package com.first.run
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.view.View
-import android.widget.EditText
-import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 
 class Start_Run : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,5 +16,8 @@ class Start_Run : AppCompatActivity() {
             startActivity(intent)
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/Liudas
 }
