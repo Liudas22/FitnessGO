@@ -1,17 +1,13 @@
 package com.first.run
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.SystemClock
-import android.os.CountDownTimer
-import android.os.health.TimerStat
 import android.view.View
 import android.widget.Button
 import android.widget.Chronometer
 import android.widget.TextView
 import android.widget.Toast
-import org.w3c.dom.Text
+import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class RunFrame : AppCompatActivity() {
@@ -28,12 +24,21 @@ class RunFrame : AppCompatActivity() {
             startActivity(intent)
         }*/
 
-        val chronometer = findViewById<Chronometer>(R.id.c_meter)
+        val pace = findViewById<TextView>(R.id.RunFramePace)
 
+        pace.text = "00:00"
+
+        val distance = findViewById<TextView>(R.id.RunFrameDistance)
+
+        distance.text = "0 km"
+
+        val chronometer = findViewById<Chronometer>(R.id.c_meter)
+        chronometer.base = SystemClock.elapsedRealtime()
         val button = findViewById<Button>(R.id.btn)
+
         button?.setOnClickListener(object : View.OnClickListener {
 
-            internal var isWorking = false
+            var isWorking = false
 
             override fun onClick(v: View) {
                 if (!isWorking) {
@@ -44,12 +49,27 @@ class RunFrame : AppCompatActivity() {
                     isWorking = false
                 }
 
-                button.setText(if (isWorking) R.string.start else R.string.stop)
+                button.setText(if (!isWorking) R.string.start else R.string.stop)
                 Toast.makeText(this@RunFrame, getString(if (isWorking) R.string.working else R.string.stopped), Toast.LENGTH_SHORT).show()
             }
+
         })
 
+        val button2 = findViewById<Button>(R.id.RunFrameStop)
 
+        button2?.setOnClickListener(object : View.OnClickListener {
+
+            var isWorking = true
+
+            override fun onClick(v: View?) {
+                if(isWorking){
+                    chronometer.stop()
+                }
+
+                button.setText(R.string.start)
+                Toast.makeText(this@RunFrame, getString(R.string.stopped), Toast.LENGTH_SHORT).show()
+            }
+        })
 
     }
 
