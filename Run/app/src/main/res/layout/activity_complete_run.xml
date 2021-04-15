@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollIndicators="top|left|bottom|start|end|right"
+    tools:context=".CompleteRun">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:windowSoftInputMode="adjustResize"
+        tools:layout_editor_absoluteY="99dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextDate"
+                style="@android:style/Widget.AutoCompleteTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="date"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:contentDescription="@string/kmuzrasas"
+                        android:text="@string/km"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textView4"
+                        app:layout_constraintEnd_toStartOf="@+id/textView2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:contentDescription="@string/paceuzrasas"
+                        android:text="@string/pace"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textView5"
+                        app:layout_constraintEnd_toStartOf="@+id/textView3"
+                        app:layout_constraintStart_toEndOf="@+id/textView"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:contentDescription="@string/timeuzrasas"
+                        android:text="@string/time"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textView6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textView2"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="181dp"
+                        android:contentDescription="@string/kilometramsirasyti"
+                        android:text="@string/textview"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+                        app:layout_constraintEnd_toStartOf="@+id/textView5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="180dp"
+                        android:contentDescription="@string/paceuiuzrasyti"
+                        android:text="@string/textview"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+                        app:layout_constraintEnd_toStartOf="@+id/textView6"
+                        app:layout_constraintStart_toEndOf="@+id/textView4"
+                        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="181dp"
+                        android:contentDescription="@string/laikuiuzrasyti"
+                        android:text="@string/textview"
+                        android:textSize="20sp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/rate_your_run_from_1_to_10"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="380dp"
+                android:layout_height="38dp"
+                android:gravity="center_horizontal"
+                android:max="10"
+                android:min="0"
+                android:stepSize="1"
+                android:progress="5"
+                android:progressTint="#009688"
+                android:scrollIndicators="start|end"
+                app:layout_constraintBottom_toTopOf="@+id/CommentAboutRun"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_horizontal"
+                android:text="@string/rate_your_run_how_do_you_feel"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/CommentAboutRun"
+                android:layout_width="383dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="@string/comments_about_the_run"
+                android:inputType="textMultiLine"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/mapView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.979" />
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="411dp"
+                android:layout_height="164dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/btDelete3"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:chipSpacingHorizontal="20dp">
+
+                <Button
+                    android:id="@+id/btDelete3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="@string/delete" />
+
+                <Button
+                    android:id="@+id/btSave3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="@string/save"
+                    android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+            </com.google.android.material.chip.ChipGroup>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

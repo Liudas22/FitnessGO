@@ -22,4 +22,7 @@
         <item name="colorControlNormal">@color/colorText</item>
         <item name="colorControlActivated">@color/colorText</item>
     </style>
+    <style name="boldTextView">
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
