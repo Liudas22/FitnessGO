@@ -12,12 +12,11 @@ class Start_Run : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start__run)
 
-        val startButton = findViewById<Button>(R.id.Start_Button)
+       val startButton = findViewById<Button>(R.id.Start_Button)
         startButton.setOnClickListener{
             val intent = Intent(this, RunFrame::class.java)
             startActivity(intent)
         }
     }
-
 
 }
